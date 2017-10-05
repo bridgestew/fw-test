@@ -1,0 +1,113 @@
+<div id="content" class="content">
+    <div class="main" role="main" id="accountInfo">
+        <div class="l-wrap  g-row">
+            <div class="l-main-body">
+                <div id="general-errors-profileUpdateForm">
+                </div>
+                <h1 class="h2">Account Information</h1>
+                <p>All fields are required unless marked (optional)</p>
+                <form id="profileUpdateForm" action="/us/en_us/My-Account/Account-Info?_DARGS=/account/includes/accountInfo.body.jsp.profileUpdateForm" class="register  js-validate  js-session-expires" method="post" data-parsley-namespace="data-parsley-"><input name="_dyncharset" value="UTF-8" type="hidden"><input name="_dynSessConf" value="-8301504857247320350" type="hidden">
+                <input name="/atg/userprofiling/ProfileFormHandler.updateSuccessURL" value="/us/en_us/My-Account" type="hidden"><input name="_D:/atg/userprofiling/ProfileFormHandler.updateSuccessURL" value=" " type="hidden">
+                <input name="/atg/userprofiling/ProfileFormHandler.updateErrorURL" value="/us/en_us/My-Account/Account-Info" type="hidden"><input name="_D:/atg/userprofiling/ProfileFormHandler.updateErrorURL" value=" " type="hidden">
+                <input name="/atg/userprofiling/ProfileFormHandler.changePasswordURL" value="/us/en_us/Change-Password" type="hidden"><input name="_D:/atg/userprofiling/ProfileFormHandler.changePasswordURL" value=" " type="hidden">
+                <input id="changePwd" name="/atg/userprofiling/ProfileFormHandler.changePasswordRedirect" value="false" type="hidden"><input name="_D:/atg/userprofiling/ProfileFormHandler.changePasswordRedirect" value=" " type="hidden">
+                <fieldset>
+                    <div class="field  field--text">
+                        <label for="firstName">First Name</label>
+                        <input data-parsley-required-message="First Name is required" id="firstName" maxlength="50" name="/atg/userprofiling/ProfileFormHandler.value.firstName" value="Bridget" class="TextField parsley-validated" required="" type="text" aria-required="true"><input name="_D:/atg/userprofiling/ProfileFormHandler.value.firstName" value=" " type="hidden">
+                    </div>
+                    <div class="field  field--text">
+                        <label for="lastName">Last Name</label>
+                        <input data-parsley-required-message="Last Name is required" id="lastName" maxlength="50" name="/atg/userprofiling/ProfileFormHandler.value.lastName" value="Stewart" class="TextField parsley-validated" required="" type="text" aria-required="true"><input name="_D:/atg/userprofiling/ProfileFormHandler.value.lastName" value=" " type="hidden">
+                    </div>
+                    <div class="field  field--select">
+                        <label for="country">Country</label>
+                        <input name="_D:/atg/userprofiling/ProfileFormHandler.value.country" value=" " type="hidden"><select id="country" name="/atg/userprofiling/ProfileFormHandler.value.country" beanvalue="Profile.country">
+                        <option value="AU">
+                            Australia
+                        </option><option value="CA">
+                        Canada
+                    </option><option value="DE">
+                    Germany
+                </option><option value="IE">
+                Ireland
+            </option><option value="MX">
+            Mexico
+        </option><option value="NZ">
+        New Zealand
+    </option><option value="GB">
+    United Kingdom
+</option><option selected="" value="US">
+United States
+</option></select>
+</div>
+<div class="field  field--text">
+<label for="email">Email Address</label>
+<input data-parsley-required-message="Email Address is required" id="email" data-parsley-type-email-message="Please enter a valid email address (x@x.x)" maxlength="254" name="/atg/userprofiling/ProfileFormHandler.value.email" value="bstewart@vitamix.com" class="TextField parsley-validated" required="" type="email" aria-required="true"><input name="_D:/atg/userprofiling/ProfileFormHandler.value.email" value=" " type="hidden">
+</div>
+<div class="field  field--text">
+<label for="text-phone">Phone Number (Optional)</label>
+<input data-parsley-regexp-message="Please enter a 10-digit phone number, numbers only" id="phoneNumber" maxlength="10" pattern="^\d{10}$" name="/atg/userprofiling/ProfileFormHandler.value.daytimeTelephoneNumber" value="8008482120" class="js-phone-numeric parsley-validated" type="text" aria-required="true"><input name="_D:/atg/userprofiling/ProfileFormHandler.value.daytimeTelephoneNumber" value=" " type="hidden">
+</div>
+<div class="field  form-actions">
+<input id="changePassword" name="/atg/userprofiling/ProfileFormHandler.update" value="Change Password" class="btn  btn--secondary" type="submit" formnovalidate=""><input name="_D:/atg/userprofiling/ProfileFormHandler.update" value=" " type="hidden">
+</div>
+<div class="field  field--radio">
+<label for="vitamixOwner">Do you currently own a Vitamix?</label>
+<div class="field__option">
+<input id="vitamixOwnerYes" name="vitamixOwner" value="true" type="radio" checked=""><input name="_D:vitamixOwner" value=" " type="hidden">
+<label for="vitamixOwnerYes">Yes</label>
+</div>
+<div class="field__option">
+<input id="vitamixOwnerNo" name="vitamixOwner" value="false" type="radio"><input name="_D:vitamixOwner" value=" " type="hidden">
+<label for="vitamixOwnerNo">No</label>
+</div>
+</div>
+<div class="field  field--radio">
+<label for="newsLetter">Would you like us to send you periodic emails and newsletters from Vitamix?</label>
+<div class="field__option">
+<input id="newsLetterYes" name="newsLetter" value="yes" type="radio"><input name="_D:newsLetter" value=" " type="hidden">
+<label for="newsLetterYes">Yes</label>
+</div>
+<div class="field__option">
+<input id="newsLetterNo" name="newsLetter" value="no" type="radio" checked=""><input name="_D:newsLetter" value=" " type="hidden">
+<label for="newsLetterNo">No, please do not send me any emails.</label>
+</div>
+</div>
+<div class="g-row">
+<div class="g-col">
+<ul class="list-horizontal  list-unstyled">
+    <li><input id="update" name="/atg/userprofiling/ProfileFormHandler.update" value="Save Changes" class="btn" type="submit" formnovalidate=""><input name="_D:/atg/userprofiling/ProfileFormHandler.update" value=" " type="hidden"></li>
+</ul>
+</div>
+</div>
+<p><a href="/us/en_us/My-Account/Account-Info/Delete-Account">Delete My Online Account</a></p>
+</fieldset>
+<input name="_DARGS" value="/account/includes/accountInfo.body.jsp.profileUpdateForm" type="hidden"></form>
+<script>$('#changePassword').click(function(event){$('#changePwd').val(true);});$('#update').click(function(event){$('#changePwd').val(false);});</script>
+</div>
+<div class="l-side-nav  print-hidden">
+<h3 class="h4">
+<a href="/us/en_us/My-Account">My Account</a>
+</h3>
+<ul class="g-row  link-list">
+<li class="g-col  g-1-2  g-desk--1-1  l-side-nav__item">
+<span class="is-current">Account Information</span>
+</li>
+<li class="g-col  g-1-2  g-desk--1-1  l-side-nav__item">
+<a id="address_nav" href="/us/en_us/My-Account/My-Addresses">Address</a>
+</li>
+<li class="g-col  g-1-2  g-desk--1-1  l-side-nav__item">
+<a id="order_history_nav" href="/us/en_us/My-Account/Order-History">Order History</a>
+</li>
+<li class="g-col  g-1-2  g-desk--1-1  l-side-nav__item">
+<a id="recipe_nav" href="/us/en_us/My-Account/Recipe-Book">Recipe Book</a>
+</li>
+<li class="g-col  g-1-2  g-desk--1-1  l-side-nav__item">
+<a id="my_profile_nav" href="/us/en_us/My-Account/My-Profile">My Profile</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
