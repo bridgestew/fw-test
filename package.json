@@ -1,0 +1,29 @@
+{
+  "name": "fw-test",
+  "version": "0.0.1",
+  "description": "Spike for VDS",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bridgestew/fw-test.git"
+  },
+  "author": "",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "gulp": ">=3.9.1",
+    "gulp-cache": ">=0.4.5",
+    "gulp-concat": ">=2.6.1",
+    "gulp-imagemin": ">=3.1.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": ">=1.2.2",
+    "gulp-sass": ">=3.1.0",
+    "gulp-shell": "^0.6.3",
+    "gulp-svg2png": ">=2.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": ">=4.3.11",
+    "gulp.spritesmith": ">=6.3.0",
+    "kss": ">=3.0.0-beta.17",
+    "postcss-pxtorem": ">=4.0.0"
+  }
+}

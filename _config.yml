@@ -1,0 +1,2 @@
+exclude: ["node_modules", "*.scss", "Gemfile", "Gemfile.lock", "package.json", "gulpfile.js", "assets/styleguide"]
+permalink: pretty
